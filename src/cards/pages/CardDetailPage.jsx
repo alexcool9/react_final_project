@@ -23,10 +23,15 @@ const CardDetailPage = () => {
       <div>Details of card: {id}</div>
 
       {card && <h1>{card.title}</h1>}
-      <img src={'https://maps.googleapis.com/maps/api/staticmap?center=Ashkelon,CA&zoom=14&size=400x400&key=AIzaSyCP1y_kwKFUy_jBDb-4EvUjt7b5jCYftfc'} />
+
+      <p>
+        More details...
+      </p>
+
+      <img src={'https://maps.googleapis.com/maps/api/staticmap?center=ashkelon,CA&zoom=14&size=400x400&key=AIzaSyCP1y_kwKFUy_jBDb-4EvUjt7b5jCYftfc'} />
       <StaticGoogleMap
         size="600x600"
-        apiKey="AIzaSyCP1y_kwKFUy_jBDb-4EvUjt7b5jCYftfc"
+        apiKey="AIzaSyCwxnuanit6uxY5sCnk_Fwl2pJnjcX-270"
       >
         <Marker
           location="-12.4742178 -49.1217118"
